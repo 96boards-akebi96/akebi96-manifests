@@ -14,7 +14,7 @@
   <project remote="github-akebi96" path="vendor/socionext/akebi96/hsc-firmware"          name="hsc-firmware"       revision="master" />
 
   <project remote="github-akebi96" path="vendor/arm/gralloc/driver/product/android/gralloc" name="mali-gralloc" revision="akebi96/r28p0" />
-  <project remote="github-akebi96" path="vendor/arm/mali/driver/product/mali-lib"        name="mali-lib"           revision="master" />
+  <project remote="github-akebi96" path="vendor/arm/mali/driver/product/mali-lib"        name="mali-lib"           revision="akebi96/r28p0" />
 
   <project remote="github-akebi96" path="external/optee_os"                              name="optee_os"           revision="akebi96"/>
 
