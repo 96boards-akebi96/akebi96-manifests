@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/OP-TEE/" name="github-optee"/>
+  <remote fetch="https://github.com/linaro-swg/" name="linaro-swg"/>
   <remote fetch="http://android-git.linaro.org/git/" name="linaro-android" review="android-review.linaro.org"/>
   <remote fetch="http://git.linaro.org/" name="linaro-other"/>
   <remote fetch="https://github.com/96boards-akebi96/" name="github-akebi96"/>
@@ -52,7 +53,7 @@
   <project groups="pdk" name="device/sample" revision="bd554f8245be5dc231aebb505d3a010f2666f8e7" upstream="refs/tags/android-9.0.0_r12"/>
   <project groups="vts,pdk" name="kernel/configs" revision="f1f8d0664868e258414efbcfd77e7241b4785a6d" upstream="refs/tags/android-9.0.0_r12"/>
   <project name="kernel/tests" revision="edf1df131197fd10fd251d4e75e73ffb783909ca" upstream="refs/tags/android-9.0.0_r12"/>
-  <project name="linaro-swg/optee_examples" path="external/optee_examples" remote="github-optee" revision="552c9d08acfaa13afe5699bbbc26f06b0cacb7ef" upstream="master"/>
+  <project name="optee_examples" path="external/optee_examples" remote="linaro-swg" revision="552c9d08acfaa13afe5699bbbc26f06b0cacb7ef" upstream="master"/>
   <project groups="pdk" name="platform/art" path="art" revision="9f327c1057d070ce787b2bc454b71ec8866a6c44" upstream="refs/tags/android-9.0.0_r12"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="5fef3204fe5011804473267426daf12377e9c755" upstream="refs/tags/android-9.0.0_r12"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="723056a83f8c8b15af02d9c302862dbb2304ea8c" upstream="refs/tags/android-9.0.0_r12"/>
