@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote fetch="https://github.com/96boards-akebi96/" name="github"/>
+
+    <project remote="github" path="device/socionext/akebi96" name="akebi96" revision="sni-release" >
+        <copyfile src="make_romimage.sh" dest="make_romimage.sh" />
+    </project>
+
+    <project remote="github" path="vendor/socionext/sc1401aj1/proprietary" name="proprietary" revision="sni-release" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/middle/hvrst" name="hvrst" revision="sni-release" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/middle/audio" name="audio" revision="sni-release" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/middle/displaymanager" name="displaymanager" revision="sni-release" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/middle/hwcomposer" name="hwcomposer" revision="sni-release" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/firmware/hsc" name="hsc-firmware" revision="sni-release" />
+    <project remote="github" path="vendor/arm/mali_lib" name="mali-lib" revision="akebi96/r28p0" />
+    <project remote="github" path="vendor/arm/gralloc/driver/product/android/gralloc" name="mali-gralloc" revision="akebi96/r28p0-legacy" />
+    <project remote="github" path="vendor/opensource/libomxil-bellagio" name="libomxil-bellagio" revision="sni-release" />
+</manifest>
