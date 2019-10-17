@@ -6,13 +6,13 @@
         <copyfile src="make_romimage.sh" dest="make_romimage.sh" />
     </project>
 
-    <project remote="github" path="vendor/socionext/sc1401aj1/proprietary" name="proprietary" revision="sni-release" />
-    <project remote="github" path="vendor/socionext/sc1401aj1/middle/hvrst" name="hvrst" revision="sni-release" />
-    <project remote="github" path="vendor/socionext/sc1401aj1/middle/audio" name="audio" revision="sni-release" />
-    <project remote="github" path="vendor/socionext/sc1401aj1/middle/displaymanager" name="displaymanager" revision="sni-release" />
-    <project remote="github" path="vendor/socionext/sc1401aj1/middle/hwcomposer" name="hwcomposer" revision="sni-release" />
-    <project remote="github" path="vendor/socionext/sc1401aj1/firmware/hsc" name="hsc-firmware" revision="sni-release" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/proprietary" name="proprietary" revision="master" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/middle/hvrst" name="hvrst" revision="master" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/middle/audio" name="audio" revision="master" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/middle/displaymanager" name="displaymanager" revision="master" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/middle/hwcomposer" name="hwcomposer" revision="master" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/firmware/hsc" name="hsc-firmware" revision="master" />
     <project remote="github" path="vendor/arm/mali_lib" name="mali-lib" revision="akebi96/r28p0" />
     <project remote="github" path="vendor/arm/gralloc/driver/product/android/gralloc" name="mali-gralloc" revision="akebi96/r28p0-legacy" />
-    <project remote="github" path="vendor/opensource/libomxil-bellagio" name="libomxil-bellagio" revision="sni-release" />
+    <project remote="github" path="vendor/opensource/libomxil-bellagio" name="libomxil-bellagio" revision="master" />
 </manifest>
