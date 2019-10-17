@@ -2,11 +2,11 @@
 <manifest>
     <remote fetch="https://github.com/96boards-akebi96/" name="github"/>
 
-    <project remote="github" path="device/socionext/akebi96" name="akebi96" revision="sni-release" >
+    <project remote="github" path="device/socionext/akebi96" name="akebi96-device" revision="sni-release" >
         <copyfile src="make_romimage.sh" dest="make_romimage.sh" />
     </project>
 
-    <project remote="github" path="vendor/socionext/sc1401aj1/proprietary" name="proprietary" revision="master" />
+    <project remote="github" path="vendor/socionext/sc1401aj1/proprietary" name="aosp-proprietary" revision="master" />
     <project remote="github" path="vendor/socionext/sc1401aj1/middle/hvrst" name="hvrst" revision="master" />
     <project remote="github" path="vendor/socionext/sc1401aj1/middle/audio" name="audio" revision="master" />
     <project remote="github" path="vendor/socionext/sc1401aj1/middle/displaymanager" name="displaymanager" revision="master" />
