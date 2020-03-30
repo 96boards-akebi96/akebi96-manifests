@@ -17,14 +17,15 @@
   <project remote="github-akebi96" path="vendor/arm/gralloc/driver/product/android/gralloc" name="mali-gralloc" revision="akebi96/r28p0" />
   <project remote="github-akebi96" path="vendor/arm/mali/driver/product/mali-lib"        name="mali-lib"           revision="akebi96/r28p0" />
 
-  <project remote="github-akebi96" path="external/optee_os"                              name="optee_os"           revision="akebi96"/>
+  <project remote="github-akebi96" path="external/optee_os"                              name="optee_os"           revision="WIP-akebi96-master"/>
 
-  <project remote="github-akebi96" groups="device,akebi96" path="device/linaro/akebi96"  name="akebi96-device"     revision="master" />
+  <project remote="github-akebi96" groups="device,akebi96" path="device/linaro/akebi96"  name="akebi96-device"     revision="WIP/optee-master" />
 
   <default remote="aosp" revision="refs/tags/android-9.0.0_r12" sync-j="4"/>
   
-  <project name="optee_client" path="external/optee_client" remote="github-optee" revision="c48bc3be9f23529952c7dd80ddd775bf580315b8" upstream="master"/>
-  <project name="optee_test" path="external/optee_test" remote="github-optee" revision="5659bceaa001cf8271327d8c0005c8ef3371fdfc" upstream="master"/>
+  <project name="optee_client" path="external/optee_client" remote="github-optee" revision="master"/>
+  <project name="optee_test" path="external/optee_test" remote="github-optee" revision="master"/>
+  <project name="optee_examples" path="external/optee_examples" remote="linaro-swg" revision="master"/>
   <project name="android-build-configs" remote="linaro-android" revision="b14f9de8a3c79cb63ff37600fa067ef27e746ec7" upstream="master"/>
   <project name="android-patchsets" remote="linaro-android" revision="e18d1cd15756b0b9dc55ab9b185e3c1e96578182" upstream="master"/>
   <project groups="pdk-cw-fs,pdk" name="device/common" revision="acbad295eb6c0d739a8b340c5a4070a961442439" upstream="refs/tags/android-9.0.0_r12"/>
@@ -53,7 +54,6 @@
   <project groups="pdk" name="device/sample" revision="bd554f8245be5dc231aebb505d3a010f2666f8e7" upstream="refs/tags/android-9.0.0_r12"/>
   <project groups="vts,pdk" name="kernel/configs" revision="f1f8d0664868e258414efbcfd77e7241b4785a6d" upstream="refs/tags/android-9.0.0_r12"/>
   <project name="kernel/tests" revision="edf1df131197fd10fd251d4e75e73ffb783909ca" upstream="refs/tags/android-9.0.0_r12"/>
-  <project name="optee_examples" path="external/optee_examples" remote="linaro-swg" revision="552c9d08acfaa13afe5699bbbc26f06b0cacb7ef" upstream="master"/>
   <project groups="pdk" name="platform/art" path="art" revision="9f327c1057d070ce787b2bc454b71ec8866a6c44" upstream="refs/tags/android-9.0.0_r12"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="5fef3204fe5011804473267426daf12377e9c755" upstream="refs/tags/android-9.0.0_r12"/>
   <project groups="pdk" name="platform/bootable/recovery" path="bootable/recovery" revision="723056a83f8c8b15af02d9c302862dbb2304ea8c" upstream="refs/tags/android-9.0.0_r12"/>
